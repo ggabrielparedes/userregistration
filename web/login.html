@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginform" action="login" method="post">
+      <input id="email" type="text" name="email" placeholder="Usuário" required>
+      <input id="password" type="password" name="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <p id="alert"></p>
+    <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+  </div>
+  <script type="module" src="login.js"></script>
+</body>
+</html>
